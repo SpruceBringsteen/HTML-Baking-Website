@@ -1,0 +1,178 @@
+body {
+	background-image:url("background.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#table {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height:900px;
+	width: 900px;
+	border-color: brown;
+	border-width: 3px;
+	
+	border-left-style: dotted;
+	border-right-style: dotted;
+	
+}
+
+.image{
+	border-radius:50%
+}
+
+.bakery{
+	height:10%;
+	text-align: center;
+}
+
+.blogo{
+	height: 5%;
+}
+
+.ad{
+	height: 5%;
+}
+
+.menu{
+height: 75%;
+}
+
+.vertical{
+	border-spacing: 25px;	
+}
+
+.footer{
+	height: 5%;
+	text-align: center;
+}
+
+img {
+	border-radius:30px;
+	box-shadow: 5px 5px 5px #B5651D;
+}
+
+.logo{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+	
+
+}
+
+.logo:hover{
+	width: 300px;
+	
+}
+
+.tabs {
+	width: 40%;
+	vertical-align: top;	
+}
+
+.sweets{
+	height: 500px;
+	width: 600px;
+	text-align: center;
+	color: brown;
+	margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+ul {list-style-type: none;}
+
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #B5651D;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 12px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 15px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:15px;
+    color: black;
+}
+
+#tasting{
+	background-color:#B5651D;
+	font-weight: bold;
+	font: 400 20px/0.8 'Cookie', Helvetica, sans-serif;
+	
+}
+
+#wedding{
+	background-color: pink;
+	font-weight: bold;
+	font: 400 25px/0.8 'Cookie', Helvetica, sans-serif;
+}
+
+#tours{
+	background-color: lime;
+	font-weight: bold;
+	font: 400 20px/0.8 'Cookie', Helvetica, sans-serif;
+}
+
+.catering{
+	list-style-image: url(knive.jpg);
+	font: 400 28px/0.8 'Cookie', Helvetica, sans-serif;
+}
+
+.catering li{
+	margin-left: 35px;
+}
+
+
+
